@@ -1,0 +1,11 @@
+﻿Build started 01.10.2014 12:45:38.
+     1>Project "d:\librtlsdr-master\build\ALL_BUILD.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/librtlsdr-master/CMakeLists.txt
+         CMake does not need to re-run because D:\librtlsdr-master\build\CMakeFiles\generate.stamp is up-to-date.
+         Build all projects
+     1>Done Building Project "d:\librtlsdr-master\build\ALL_BUILD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

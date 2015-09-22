@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{3E579FEA-E2BF-49DC-B4E6-6D1417D29885}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\librtlsdr-master\include;D:\librtlsdr-master\lib\libusb\include\libusbx-1.0;D:\librtlsdr-master\lib\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\librtlsdr-master\include;D:\librtlsdr-master\lib\libusb\include\libusbx-1.0;D:\librtlsdr-master\lib\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\librtlsdr-master\include;D:\librtlsdr-master\lib\libusb\include\libusbx-1.0;D:\librtlsdr-master\lib\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\librtlsdr-master\include;D:\librtlsdr-master\lib\libusb\include\libusbx-1.0;D:\librtlsdr-master\lib\pthreads\Pre-built.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/librtlsdr-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\bin\cmake.exe" -HD:/librtlsdr-master -BD:/librtlsdr-master/build --check-stamp-file D:\librtlsdr-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/librtlsdr-master/CMakeLists.txt;D:\librtlsdr-master\CMakeLists.txt;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\librtlsdr-master\cmake\Modules\Version.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindGit.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPkgConfig.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\Modules\FindLibUSB.cmake;D:\librtlsdr-master\cmake\Modules\FindThreads.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\cmake_uninstall.cmake.in;D:\librtlsdr-master\librtlsdr.pc.in;D:\librtlsdr-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\librtlsdr-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/librtlsdr-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\bin\cmake.exe" -HD:/librtlsdr-master -BD:/librtlsdr-master/build --check-stamp-file D:\librtlsdr-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/librtlsdr-master/CMakeLists.txt;D:\librtlsdr-master\CMakeLists.txt;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\librtlsdr-master\cmake\Modules\Version.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindGit.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPkgConfig.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\Modules\FindLibUSB.cmake;D:\librtlsdr-master\cmake\Modules\FindThreads.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\cmake_uninstall.cmake.in;D:\librtlsdr-master\librtlsdr.pc.in;D:\librtlsdr-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\librtlsdr-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/librtlsdr-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\bin\cmake.exe" -HD:/librtlsdr-master -BD:/librtlsdr-master/build --check-stamp-file D:\librtlsdr-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/librtlsdr-master/CMakeLists.txt;D:\librtlsdr-master\CMakeLists.txt;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\librtlsdr-master\cmake\Modules\Version.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindGit.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPkgConfig.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\Modules\FindLibUSB.cmake;D:\librtlsdr-master\cmake\Modules\FindThreads.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\cmake_uninstall.cmake.in;D:\librtlsdr-master\librtlsdr.pc.in;D:\librtlsdr-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\librtlsdr-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/librtlsdr-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\bin\cmake.exe" -HD:/librtlsdr-master -BD:/librtlsdr-master/build --check-stamp-file D:\librtlsdr-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/librtlsdr-master/CMakeLists.txt;D:\librtlsdr-master\CMakeLists.txt;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeSystem.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\librtlsdr-master\build\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeRCInformation.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\librtlsdr-master\cmake\Modules\Version.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindGit.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPkgConfig.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\Modules\FindLibUSB.cmake;D:\librtlsdr-master\cmake\Modules\FindThreads.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CheckLibraryExists.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\FindPackageMessage.cmake;c:\Program Files\mingw-builds\cmake-2.8.12.2-win32-x86\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\librtlsdr-master\cmake\cmake_uninstall.cmake.in;D:\librtlsdr-master\librtlsdr.pc.in;D:\librtlsdr-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\librtlsdr-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\8ae032abc214b694bcf2fda5735ae982\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/librtlsdr-master/build/CMakeFiles/8ae032abc214b694bcf2fda5735ae982/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\librtlsdr-master\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/librtlsdr-master/build/CMakeFiles/8ae032abc214b694bcf2fda5735ae982/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\librtlsdr-master\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/librtlsdr-master/build/CMakeFiles/8ae032abc214b694bcf2fda5735ae982/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\librtlsdr-master\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/librtlsdr-master/build/CMakeFiles/8ae032abc214b694bcf2fda5735ae982/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\librtlsdr-master\build\CMakeFiles\ALL_BUILD</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/librtlsdr-master/build/ZERO_CHECK.vcxproj">
+      <Project>11EE39BF-13BC-4946-AA0E-2914D1CE96F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/convenience_static.vcxproj">
+      <Project>371BD8FD-D9BA-4D57-869C-A3CA60C5AFF9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/libgetopt_static.vcxproj">
+      <Project>A0ADFC1C-057A-41C8-B2CE-0B48631AEACE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_adsb.vcxproj">
+      <Project>6A42D52B-3214-4FD9-8611-2B48839E1119</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_eeprom.vcxproj">
+      <Project>9F0D2066-D4C0-44F6-A1E0-059AD832A063</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_fm.vcxproj">
+      <Project>CE3361FA-D05A-42A0-9F17-92D1CFBDE534</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_hpsdr.vcxproj">
+      <Project>5FC7C96A-BE8D-4638-AB22-DA2FC207439E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_power.vcxproj">
+      <Project>C609E503-D87C-4FC1-90D3-F13CEE2FD36F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_sdr.vcxproj">
+      <Project>1E83F0AF-01F4-4908-A218-ED240A55AF66</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_tcp.vcxproj">
+      <Project>5D8F143F-8448-4C01-96A9-B81D0417523D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtl_test.vcxproj">
+      <Project>8294A324-B680-4432-9ED4-A8FE3506501F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtlsdr_shared.vcxproj">
+      <Project>090CB60E-4EC7-4D9F-8365-EE91ADC69F0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/librtlsdr-master/build/src/rtlsdr_static.vcxproj">
+      <Project>E25A71A2-6344-4125-B2E0-589CD2FE3B57</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

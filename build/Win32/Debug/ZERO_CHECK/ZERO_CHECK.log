@@ -1,0 +1,12 @@
+﻿Build started 01.10.2014 12:45:35.
+     1>Project "d:\librtlsdr-master\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/librtlsdr-master/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/librtlsdr-master/build/include/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/librtlsdr-master/build/src/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "d:\librtlsdr-master\build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12
