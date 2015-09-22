@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/librtlsdr-master/src/getopt/getopt.c
+config.h
+-
+stdio.h
+-
+gnu-versions.h
+-
+stdlib.h
+-
+unistd.h
+-
+unixlib.h
+-
+string.h
+-
+libintl.h
+-
+getopt.h
+D:/librtlsdr-master/src/getopt/getopt.h
+string.h
+-
+string.h
+-
+strings.h
+-
+stdlib.h
+-
+
+D:/librtlsdr-master/src/getopt/getopt.h
+ctype.h
+-
+

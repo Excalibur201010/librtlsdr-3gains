@@ -1,0 +1,13 @@
+D:/librtlsdr-master/build/src/CMakeFiles/convenience_static.dir
+D:/librtlsdr-master/build/src/CMakeFiles/libgetopt_static.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_adsb.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_eeprom.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_fm.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_hpsdr.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_power.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_sdr.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_tcp.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtl_test.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtlsdr_shared.dir
+D:/librtlsdr-master/build/src/CMakeFiles/rtlsdr_static.dir
+D:/librtlsdr-master/build/CMakeFiles/uninstall.dir
